@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: orangered;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #fb9128;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover:after{
+    width: 100%;
+}
+.wrapper {
+    height: 700px;
+    width: 100%;
+    background: #D3D3D3;
+    padding: 5px;
+    border-top: solid black 1px;
+    border-bottom:  solid black 1px;
+}
+.About {
+    width: auto;
+    display: flex;
+    padding: 8px 12px;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner{
+   width: auto;
+    display: flex;
+    padding: 8px 12px;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper h1{
+    text-align: center;
+}
+.wrapper p{
+    font-size: 20px;
+    text-align: center;
+}
+.wrapper1 h1{
+    text-align: center;
+}
+.wrapper1 p{
+    text-align: center;
+}
+.images{
+     width: auto;
+    display: flex;
+    padding: 8px 12px;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.images img{
+    height: 250px;
+    width: 250px;
+}
+.info{
+     width: auto;
+    display: flex;
+    padding: 8px 12px;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.info1 {
+     width: auto;
+    display: flex;
+    padding: 8px 12px;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.banner{
+    height: 200px;
+    padding: 50px;
+    background: gray;
+}
+.footer h1{
+    width: auto;
+    display: flex;
+    padding: 8px 12px;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.footer2 h1{
+    width: auto;
+    display: flex;
+    padding: 8px 12px;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.footer3 h1{
+    width: auto;
+    display: flex;
+    padding: 8px 12px;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.banner1 {
+    height: 100px;
+    width: 100%;
+    background: black;
+}
+.social-icons{
+    width:200px;
+    text-align: center;
+    opacity: .4;
+    position: relative;
+    margin: 60px;
+}
+.social-icons img{
+    height: 20px;
+    margin: 0 14px;
+}
+.social-icons::after{
+    content: '';
+    width: 150px;
+    height: 1px;
+    background: #000;
+    position: absolute;
+    left: -160px;
+    top: 10px;
+}
+.specialization h1{
+    width: auto;
+    display: flex;
+    padding: 8px 12px;
+    font-size: 20px;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.specialization p{
+    width: auto;
+    display: flex;
+    padding: 8px 12px;
+    font-size: 20px;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.specialization1 h1{
+    width: auto;
+    display: flex;
+    padding: 8px 12px;
+    font-size: 20px;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.specialization1 p{
+    width: auto;
+    display: flex;
+    padding: 8px 12px;
+    font-size: 20px;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.specialization2 h1{
+    width: auto;
+    display: flex;
+    padding: 8px 12px;
+    font-size: 20px;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.specialization2 p{
+    width: auto;
+    display: flex;
+    padding: 8px 12px;
+    font-size: 20px;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.specialization0 h1{
+    width: auto;
+    display: flex;
+    padding: 8px 12px;
+    font-size: 20px;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.right-column{
+     width: auto;
+    display: flex;
+    padding: 8px 12px;
+    justify-content:space-evenly;
+    align-items: flex-end;
+}
+.left-column{
+     width: auto;
+    display: flex;
+    padding: 8px 12px;
+    font-size: 20px;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.banner0{
+      width: auto;
+    display: flex;
+    padding: 8px 12px;
+    font-size: 20px;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.imgs{
+    width: 70%;
+    display: flex;
+    padding: 8px 12px;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.imgs img{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
